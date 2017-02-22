@@ -1,0 +1,29 @@
+{
+  "name": "canvas-syncing-assignment-part1",
+  "version": "1.0.0",
+  "description": "A websocket-based server that lets you update text on said server",
+  "main": "./src/server.js",
+  "scripts": {
+      "start": "node ./src/server.js",
+      "pretest": "eslint ./src --fix",
+      "test": "echo \"tests complete\"" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJKaufman/canvas-syncing-assignment-part1.git"
+  },
+  "author": "Aidan Kaufman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJKaufman/canvas-syncing-assignment-part1/issues"
+  },
+  "homepage": "https://github.com/AJKaufman/canvas-syncing-assignment-part1#readme",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "dependencies": {
+    "socket.io": "^1.7.2"
+  }
+}
